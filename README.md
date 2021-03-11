@@ -1,6 +1,6 @@
 # Mux
 
-stemVerilog Assertion Concept
+SystemVerilog Assertion Concept
 
 Block Diagram
                 
