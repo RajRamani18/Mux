@@ -24,8 +24,6 @@ module mux
             mux_op <= in3 ;
     
 //Assertions
-    //default clocking cb @(negedge clock);
-    //endclocking    
     
     property SELECT_1;
         @(posedge clk) 
