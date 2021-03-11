@@ -5,7 +5,7 @@ module mux_tb ;
 
   parameter PERIOD = 10 ;
 
-  logic        clk    ;
+  logic        clk = 0;
   logic [3:0]  in1    ;
   logic [3:0]  in2    ;
   logic [3:0]  in3    ;
@@ -27,9 +27,7 @@ module mux_tb ;
 
   always
     begin
-      clk <= 0 ;
-      #(PERIOD/2);
-      clk <= 1 ;
+      clk <= ~clk ;
       #(PERIOD/2);
     end
 
