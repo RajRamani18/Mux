@@ -39,4 +39,4 @@ Assertion
     - When `sel3` is logic 1, check that in the next evaluation cycle `mux_op` equals `in3` from the past cycle
   
 Assertion Result
-![Assertion Result](Sim res/assertion simulation.png)
+![Assertion Result](Sim_res/assertion_simulation.png)
