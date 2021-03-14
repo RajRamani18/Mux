@@ -38,4 +38,5 @@ Assertion
     - When `sel2` is logic 1, check that in the next evaluation cycle `mux_op` equals `in2` from the past cycle
     - When `sel3` is logic 1, check that in the next evaluation cycle `mux_op` equals `in3` from the past cycle
   
-
+Assertion Result
+![Assertion Result](Sim res/assertion simulation.png)
